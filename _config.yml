@@ -7,7 +7,7 @@ presskit_download_link                    :                                     
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Mami Nianga                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Votre site sera bientôt Nianga                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Commandez votre coiffure à domicile!
 
@@ -17,7 +17,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : CGV
-your_link                                 : /CGV.pdf
+your_link                                 : /CGV_Mami_Nianga.pdf
 # your_city                                 : Paris
 email_address                             : contact@maminianga.com
 facebook_username                         : mami.nianga.31
@@ -39,16 +39,16 @@ features                                  :
   #   description                           : Activez les notifications et soyez les premiers prevenus de l'ouverture d'un club!
   #   fontawesome_icon_name                 : bell
 
-  - title                                 : 1
-    description                           : Description 1
+  - title                                 : 1. Moyen de paiement
+    description                           : Pour des raisons de sécurité et sanitaires, nous ne pratiquons pas le paiement en espèces. Tous les règlements s'effectuent uniquement sur l'application (Mobile Money ou Carte bancaire).
     fontawesome_icon_name                 : trophy
 
-  - title                                 : 2
-    description                           : Description 2
+  - title                                 : 2. Ma coiffure n'est pas dans la liste
+    description                           : N'hésitez pas à nous faire savoir vos choix de coiffure, nous enrichirons notre offre. Nos talents savent s'adapter.
     fontawesome_icon_name                 : clock
 
-  - title                                 : 3
-    description                           : Description 3
+  - title                                 : 3. Est-il possible d'annuler une réservation?
+    description                           : Oui, vous avez jusqu'à la veille de la date prévue de votre prestation pour annuler sans frais. Nous procéderons alors au remboursement de l'acompte versé sur le numéro indiqué à votre profil.
     fontawesome_icon_name                 : phone
 
 # Feature List                            Edit, add or remove features to be presented.
@@ -62,14 +62,14 @@ faq                                  :
   #   description                           : Activez les notifications et soyez les premiers prevenus de l'ouverture d'un club!
   #   fontawesome_icon_name                 : bell
 
-  - title                                 : 1
-    description                           : FAQ 1
+  - title                                 : 1. Moyen de paiement
+    description                           : Pour des raisons de sécurité et sanitaires, nous ne pratiquons pas le paiement en espèces. Tous les règlements s'effectuent uniquement sur l'application (Mobile Money ou Carte bancaire).
 
-  - title                                 : 2
-    description                           : FAQ 2
+  - title                                 : 2. Ma coiffure n'est pas dans la liste
+    description                           : N'hésitez pas à nous faire savoir vos choix de coiffure, nous enrichirons notre offre. Nos talents savent s'adapter.
 
-  - title                                 : 3
-    description                           : FAQ 3
+  - title                                 : 3. Est-il possible d'annuler une réservation?
+    description                           : Oui, vous avez jusqu'à la veille de la date prévue de votre prestation pour annuler sans frais. Nous procéderons alors au remboursement de l'acompte versé sur le numéro indiqué à votre profil.
   # - title                                 : Feature List
   #   description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
   #   fontawesome_icon_name                 : star
@@ -97,7 +97,7 @@ topbar_color                              : "#ffffff"
 topbar_transparency                       : 0
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/masaaki-komori-oSNEcx7SZOk-unsplash.jpg                    # Replace with alternative image path or image URL.
+cover_image                               : assets/site_web.jpg                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#000000"
 cover_overlay_transparency                : 0.3
 

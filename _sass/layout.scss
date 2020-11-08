@@ -9,8 +9,8 @@
 		url($header-image);
 
 	background-repeat: no-repeat;
+	background-position: bottom;
 	background-size: cover;
-	background-position: top;
 	border-radius: 0px 0px 40px 40px;
 
 }
@@ -43,7 +43,7 @@
 	}
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 4000px) {
 
 	.container {
 		grid-column-gap: 0px;
@@ -136,7 +136,7 @@ nav > ul li a:active {
 	align-content: flex-start;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 4000px) {
 
 	.appInfo {
 		padding-top: 50px;
@@ -148,6 +148,7 @@ nav > ul li a:active {
 .appIconShadow {
 	display: flex;
 	filter: $drop-shadow;
+	margin-right: 15px;
 }
 
 .appIconLarge {
@@ -163,7 +164,7 @@ nav > ul li a:active {
 	flex-direction: column;
 	align-items: start;
 	justify-content: center;
-	margin-left: 30px;
+	// margin-left: 30px;
 }
 
 .appName {
@@ -211,7 +212,7 @@ nav > ul li a:active {
 	color: $app-description-color;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 4000px) {
 
 	.appDescription {
 		text-align: center;
@@ -225,7 +226,7 @@ nav > ul li a:active {
 	filter: $drop-shadow;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 4000px) {
 
 	.downloadButtonsContainer {
 		text-align: center;
@@ -238,7 +239,7 @@ nav > ul li a:active {
 	margin-right: 24px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 4000px) {
 
 	.playStore {
 		margin-right: 24px;
@@ -252,6 +253,13 @@ nav > ul li a:active {
 	.playStore {
 		margin-right: 0px;
 		margin-bottom: 24px;
+	}
+
+}
+@media only screen and (max-width: 768px) {
+
+	.appIconShadow {
+		margin-right: 0px;
 	}
 
 }
@@ -320,7 +328,7 @@ nav > ul li a:active {
 
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 4000px) {
 
 	.iphonePreview {
 		display: flex;
@@ -418,7 +426,7 @@ nav > ul li a:active {
 	line-height: 1.5;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 4000px) {
 
 	.features {
 		flex-grow: 1;
@@ -481,7 +489,7 @@ footer {
 	display: flex;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 4000px) {
 
 	.footerText {
 		color: $footer-text-color;
